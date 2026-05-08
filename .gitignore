@@ -1,39 +1,18 @@
-# Dependencies
 node_modules/
-
-# Build output
 dist/
 dist-ssr/
-
-# Environment variables — NEVER commit these
 .env
 .env.local
 .env.*.local
-
-# Vite
 *.local
-
-# Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
-
-# Editor
 .vscode/
 .idea/
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-package-lock.json
-
-# OS
 .DS_Store
 Thumbs.db
-
-# Firebase
 .firebase/
 firebase-debug.log
 firestore-debug.log
+claude.md
