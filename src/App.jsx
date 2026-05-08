@@ -6,6 +6,8 @@ import LoginScreen  from './screens/LoginScreen.jsx'
 import StudentApp   from './screens/StudentApp.jsx'
 import TeacherApp   from './screens/TeacherApp.jsx'
 import { T } from './theme.js'
+import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from "@vercel/analytics/next"
 
 const AuthCtx = createContext(null)
 export const useAuth = () => useContext(AuthCtx)
